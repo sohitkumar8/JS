@@ -1,0 +1,47 @@
+Looping & Logic Building
+
+Looping kya hota hai?
+looping ka matlab hai code ko baar baar execute karna.
+
+for loop 
+Syntax:-
+  1.for (initialization; condition; update){
+        //code
+    }
+Ye 3 parts kya hai?
+    initialization
+        let i = 1;
+        counter start
+
+    condition
+        i<=5;
+        jab tak true hai loop chalega.
+
+    update
+        i++
+        har round ke baad value increase.
+
+
+2.while loop
+jab number of iterations pehle se pata na ho.
+    Syntax:
+        let i=1;
+        while(condition){
+            //code
+            update
+        }
+
+
+
+3.do...while loop 
+Ek baar code zarur chalega.
+    Syntax:-
+        let i=1;
+        do{
+            //code
+            i++
+        }while(i<=5);
+
+Difference:-
+    while -> condition pahle check 
+    do while -> code phle execute baad me 
