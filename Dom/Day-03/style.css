@@ -1,0 +1,11 @@
+
+
+.dark{
+    background: black;
+    color: white;
+}
+
+.active{
+    color: red;
+    font-size: 50px;
+}
