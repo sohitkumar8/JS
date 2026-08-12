@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Live Validation</title>
+
+    <style>
+
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        .error {
+            border: 2px solid red;
+        }
+
+        .success {
+            border: 2px solid green;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Live Registration</h1>
+
+    <form id="form">
+
+        <input id="name" placeholder="Enter Name">
+        <p id="nameError"></p>
+
+        <input id="email" placeholder="Enter Email">
+        <p id="emailError"></p>
+
+        <input id="password"
+               type="password"
+               placeholder="Enter Password">
+        <p id="passwordError"></p>
+
+        <input id="confirmPassword"
+               type="password"
+               placeholder="Confirm Password">
+        <p id="confirmPasswordError"></p>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h2 id="success"></h2>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
