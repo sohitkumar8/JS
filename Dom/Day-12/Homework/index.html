@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form  id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name ">
+        <p id="nameError"></p>
+
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="abc@email.com">
+        <p id="emailError"></p>
+
+        <div>Gender:</div>
+        <label for="gender">
+            <input type="radio" name="gender" value="male">
+            Male
+        </label>
+        <label for="gender">
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+        <p id="genderError"></p>
+        
+        <label for="course">Select course:</label>
+        <select name="course" id="course">
+            <option value="">Select a course</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="react">React</option>
+        </select>
+        <p id="courseError"></p>
+
+        <input type="checkbox" id="term" name="term">
+        <label for="term">I accept Terms & Conditions</label>
+        <p id="termError"></p>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <h2 id="success"></h2>
+    
+    <script src="script.js"></script>
+</body>
+</html>
